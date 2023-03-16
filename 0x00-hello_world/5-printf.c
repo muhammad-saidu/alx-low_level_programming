@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-printf("I am but a humble program, ");
+printf("with proper grammar, but the outcome is a piece of art, ");
 printf("yet I bring you a masterpiece!\n");
 printf("Behold, an array of asterisks, ");
 printf("arranged in a most exquisite form:\n");
