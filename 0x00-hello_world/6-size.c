@@ -5,13 +5,10 @@
  */
 int main(void)
 {
-printf("The size of char is 1 bytes");
-printf("The size of short is 2 bytes");
-printf("The size of int is 4 bytes");
-printf("The size of long is 4 bytes");
-printf("The size of long long is 8 bytes");
-printf("The size of float is 4 bytes");
-printf("The size of double is 8 bytes");
-printf("The size of long double is 12 bytes");
+printf("size of a char: %i byte(s)\n", sizeof(char));
+printf("size of an int: %i byte(s)\n", sizeof(int));
+printf("size of a long int: %i byte(s)\n", sizeof(long int));
+printf("size of a long long int: %i byte(s)\n", sizeof(long long int));
+printf("size of a float: %i byte(s)\n", sizeof(float));
 return (0);
 }
